@@ -1,0 +1,49 @@
+body {
+	background: #000000;
+}
+
+#container {
+	background-color: #242424;
+	color: #ffffff;
+}
+
+td {
+	background-image: linear-gradient(to bottom, #242424, #3d3d3d);
+}
+
+.recomendado td {
+	background-image: linear-gradient(to bottom, #242424, #4c524a);
+}
+
+td {
+	color: #ffffff;
+}
+
+tr:hover td {
+	background-image: linear-gradient(to bottom, #002d3b, #00465c);
+}
+
+a:link {
+	color: lightblue;
+}
+
+a:visited {
+	color: #00779c;
+}
+
+.bottommenu, #welcome {
+	background-image: none;
+	background-color: #000000;
+}
+
+div.derecha > a.action.new {
+	background: #080808;
+}
+
+div.ficha, div.spoil > section {
+	background: #242424;
+}
+
+body > div#container > div#content > div:nth-child(3):not([class]) {
+	background: #000000;
+}
