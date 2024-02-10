@@ -1,0 +1,69 @@
+/* Parte central de los fondos */
+.components-home-assets-__sign-content-test_---sign-middle---10WpY3, .components-home-assets-__sign-extra-test_---extra-main---srY6wN, .components-home-assets-__sign-recom-test_---recommend-main---3QUb4U { 
+	background-color: #000000;
+	background-image: none;
+	border: 1px solid;
+	border-image: 
+    linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0),
+      #00ff00, 
+      rgba(0, 0, 0, 0)
+    ) 1 100%;
+}
+
+/* Parte superior e inferior de los fondos */
+.components-home-assets-__sign-extra-test_---extra-bottom---xGBThR, .components-home-assets-__sign-extra-test_---extra-top---3YxVnE, .components-home-assets-__sign-content-test_---sign-top---3wxjJH,
+.components-home-assets-__sign-content-test_---sign-bottom---3FBLFn, .components-home-assets-__sign-recom-test_---recommend-bottom---10cGeU, .components-home-assets-__sign-recom-test_---recommend-top---Lb_T0q { 
+	filter: brightness(0);
+}
+
+/* Objetos diarios */
+.components-home-assets-__sign-content-test_---sign---3dbEui .components-home-assets-__sign-content-test_---sign-item---3gtMqV {
+	background-color: #000000;
+	background-image: none;
+	border: 1px solid;
+	border-image: 
+    linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0),
+      #00ff00, 
+      rgba(0, 0, 0, 0)
+    ) 1 100%;
+}
+
+/* Objeto diario por recoger */
+.components-home-assets-__sign-content-test_---sign---3dbEui .components-home-assets-__sign-content-test_---has-signed---1--Ffl:after {
+	filter: brightness(0);
+	width: 0.8rem;
+}
+
+/* Recuperar visita */
+.components-home-assets-__sign-content-test_---sign---3dbEui .components-home-assets-__sign-content-test_---mend-btn-disabled---1aekA3 {
+    background: #000000;
+    color: #ffffff;
+}
+
+/* Evento diario y escanear QR */
+.components-home-assets-__sign-extra-test_---extra---qpL7-5 .components-home-assets-__sign-extra-test_---content-left---2fxjDa, .components-home-assets-__home_---qr-code---iYG7z9, .components-home-assets-__home_---qr-wrapper---ZronLA {
+	background-color: #000000;
+	background-image: none;
+	border: 1px solid;
+	border-image: 
+    linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0),
+      #00ff00, 
+      rgba(0, 0, 0, 0)
+    ) 1 100%;
+}
+
+/* Objetos del evento diario */
+.components-home-assets-__sign-extra-test_---extra---qpL7-5 .components-home-assets-__sign-extra-test_---gen-icon-bg---woAivu {
+	background: none;
+}
+
+/* Fondo de toda la página */
+.components-home-assets-__home_---index-bg---2nEmGw, .components-home-assets-__home_---home-main---Ui0v--, .components-home-assets-__home_---home-top---2vTeT_ {
+	filter: brightness(0.25);
+}
