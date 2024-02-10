@@ -1,0 +1,40 @@
+/* Menciones */
+.mentioned-Tre-dv {background-color: #00ff0041 !important} /* Color de fondo cuando te mencionan */
+.mentioned-Tre-dv:before {background-color: #00ff00 !important} /* Línea vertical a la izquierda de la mención */
+.mentioned-Tre-dv:hover {background-color: #00ff007c !important} /* Color de fondo de la mención cuando pasas el ratón por encima */
+.theme-dark .wrapper-1ZcZW- {background-color: #00ff00 !important; color: black !important} /* Menciones en chat (@) */
+
+/* Chat */
+.chat-2ZfjoI {background-color: black !important} /* Fondo de los chats */
+.theme-dark .form-3gdLxP:before {background: black !important} /* Arreglo del chat (mismo color que el chat) */
+.container-ZMc96U.themed-Hp1KC_ {background-color: rgb(10, 10, 10) !important} /* Fondo de la barra superior del chat */
+.theme-dark .children-3xh0VB:after {background: rgb(10, 10, 10) !important} /* Arreglo en la barra superior (mismo color que la barra) */
+.privateChannels-oVe7HL {background-color: black !important} /* Fondo de búsqueda de conversación */
+.scroller-WSmht3 {background-color: rgb(20, 20, 20) !important} /* Fondo de chats a la izquierda */
+.scrollableContainer-15eg7h {background-color: rgb(10, 10, 10) !important} /* Fondo de escritura en chat */
+.userPopout-2j1gM4, .bodyInnerWrapper-2bQs1k, .footer-3naVBw {background-color: rgb(10, 10, 10) !important} /* Fondo de perfil */
+.input-2z42oC {background-color: black !important} /* Fondo de enviar mensaje en perfil */
+.popoutBanner-3cqRD9 {background-color: rgb(10, 10, 10) !important} /* Fondo superior del perfil */
+.content-3spvdd {background: black !important; color: #00ff00 !important} /* Fecha en los chats */
+.divider-2rZFJK {border-top: thin solid rgba(0, 255, 0, 0.48) !important} /* Divisor de la fecha */
+.root-1e2tfc {background-color: rgb(5, 5, 5) !important} /* Ventana flotante de llamada entrante */
+.wrapper-1gVUIN.minimum-fXpVNc {background-color: rgb(10, 10, 10) !important} /* Fondo en llamada */
+.embedFull-1HGV2S {background-color: rgb(10, 10, 10) !important} /* Fondo links extendidos */
+.embedWrapper-1MtIDg, .embedFull-1HGV2S, .embed-hKpSrO, .markup-eYLPri {border-color: #00ff00 !important} /* Borde izquierdo de links extendidos */
+
+/* Mi perfil */
+.panels-3wFtMD {background-color: rgb(10, 10, 10) !important} /* Fondo del panel de perfil */
+.sidebarRegionScroller-FXiQOh {background-color: rgb(10, 10, 10) !important} /* Fondo de configuración de perfil a la izquierda */
+.contentRegionScroller-2_GT_N {background-color: black !important} /* Fondo de configuración de perfil a la derecha */
+
+/* Servidores */
+.scroller-3X7KbA {background-color: black !important} /* Lista de servidores */
+.childWrapper-1j_1ub {background-color: rgb(10, 10, 10) !important} /* Fondo servidores sin icono */
+.circleIconButton-1VxDrg {background-color: rgb(10, 10, 10) !important} /* Fondo de iconos extra */
+.item-2LIpTv {background-color: #00ff00 !important} /* Color de los puntos de aviso de mensaje y etc a la izquierda */
+.folderIconWrapper-1oRIZr {background-color: rgba(10, 10, 10, 0.4) !important} /* Fondo de carpeta de servidores */
+.folder-241Joy {background-color: rgb(20, 20, 20) !important} /* Fondo de carpeta de servidores al abrirla */
+.expandedFolderBackground-1kSAf6 {background-color: rgb(20, 20, 20) !important} /* Fondo de los servidores de una carpeta abierta */
+.mention-3XBnnZ, .numberBadge-37OJ3S, .base-3IDx3L, .baseShapeRound-3epLEv {background-color: green !important} /* Mensajes sin leer (notificaciones) */
+.container-1NXEtd {background-color: rgb(20, 20, 20) !important} /* Lista de canales en servidor */
+.container-2o3qEW, .members-3WRCEx, .members-3WRCEx>div {background-color: rgb(20, 20, 20) !important} /* Fondo lista de personas */
