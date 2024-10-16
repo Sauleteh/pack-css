@@ -1,8 +1,8 @@
 /* Cambios de rojo a verde fuerte (y blanco a negro en caso de ilegibilidad) */
 tp-yt-paper-button.ytd-subscribe-button-renderer:not(subscribed) {background-color: #00ff00; color: black} /* Botón de suscripción */
 .ytp-swatch-background-color {background-color: #00ff00} /* Barra de progreso en video */
-#logo-icon > yt-icon-shape > icon-shape.yt-spec-icon-shape > div > svg.external-icon > svg > g:nth-child(1) > path:nth-child(1) {fill: #00ff00} /* Icono de Youtube arriba a la izquierda */
-#logo-icon > yt-icon-shape > icon-shape.yt-spec-icon-shape > div > svg.external-icon > svg > g:nth-child(1) > path:nth-child(2) {fill: black} /* Flecha del icono de Youtube arriba a la izquierda */
+#yt-logo-updated_yt16 > g:nth-child(1) > path:nth-child(1) {fill: #00ff00} /* Icono de Youtube arriba a la izquierda */
+#yt-logo-updated_yt16 > g:nth-child(1) > path:nth-child(2) {fill: black} /* Flecha del icono de Youtube arriba a la izquierda */
 #hearted.ytd-creator-heart-renderer {color: #00ff00} /* Corazones de likes de creadores de contenido */
 #progress.ytd-thumbnail-overlay-resume-playback-renderer {background-color: #00ff00} /* Barra de progreso en miniaturas */
 #progress.yt-page-navigation-progress {background-color: #00ff00} /* Barra de progreso al cambiar página de página dentro de Youtube */
