@@ -1,6 +1,7 @@
 /* Cambios de rojo a verde fuerte (y blanco a negro en caso de ilegibilidad) */
 tp-yt-paper-button.ytd-subscribe-button-renderer:not(subscribed) {background-color: #00ff00; color: black} /* Botón de suscripción */
-.ytp-swatch-background-color {background-color: #00ff00} /* Barra de progreso en video */
+.ytp-cairo-refresh-signature-moments .ytp-play-progress {background: linear-gradient(to right, #00ff00 80%, #009900 100%)} /* Barra de progreso en video */
+.ytp-swatch-background-color { background-color: #00ff00 }; /* Círculo que acompaña a la barra de progreso en el video */
 #yt-logo-updated_yt16 > g:nth-child(1) > path:nth-child(1) {fill: #00ff00} /* Icono de Youtube arriba a la izquierda */
 #yt-logo-updated_yt16 > g:nth-child(1) > path:nth-child(2) {fill: black} /* Flecha del icono de Youtube arriba a la izquierda */
 #hearted.ytd-creator-heart-renderer {color: #00ff00} /* Corazones de likes de creadores de contenido */
