@@ -42,7 +42,7 @@ tp-yt-paper-button.ytd-subscribe-button-renderer[subscribed] {background-color: 
 .ytp-popup {background-color: rgba(5,5,5,.9);} /* Fondo de opciones en video */
 .ytd-segmented-like-dislike-button-renderer .style-scope .yt-icon { color: #ff0000 !important; } /* Botón de dislike (forma) */
 yt-animated-icon[animated-icon-type="LIKE"] > ytd-lottie-player.yt-animated-icon > lottie-component.lottie-component > svg > g > g > g > path { fill: rgb(0, 0, 255) !important; stroke: rgb(0, 0, 255) !important; } /* Botón de like (forma) */
-
+div#progress.style-scope.ytd-thumbnail-overlay-resume-playback-renderer { background: var(--gradientGreen); } /* Barra de progreso en miniaturas de playlist */
 
 
 /*** En los comentarios ***/
