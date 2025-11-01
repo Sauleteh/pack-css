@@ -1,6 +1,7 @@
 :root {
 	--darkGreen: #009900;
 	--strongGreen: #00ff00;
+	--gradientGreen: linear-gradient(to right, var(--strongGreen) 80%, var(--darkGreen) 100%);
 }
 
 
@@ -8,7 +9,7 @@
 /*** Elementos globales ***/
 #logo-icon > span.yt-icon-shape > div > svg > g:nth-child(1) > path:nth-child(1) { fill: var(--strongGreen) } /* Icono de Youtube arriba a la izquierda */
 #logo-icon > span.yt-icon-shape > div > svg > g:nth-child(1) > path:nth-child(2) {fill: black} /* Flecha del icono de Youtube arriba a la izquierda */
-#progress.yt-page-navigation-progress {background-color: var(--strongGreen)} /* Barra de progreso al cambiar página de página dentro de Youtube */
+#progress.yt-page-navigation-progress {background: var(--gradientGreen)} /* Barra de progreso al cambiar página de página dentro de Youtube */
 ytd-app {background-color: black} /* Fondo de página principal */
 html[dark], [dark] {--yt-spec-brand-background-solid: #050505; --yt-spec-brand-background-primary: #050505; --yt-spec-general-background-a: #030303;} /* Fondo de subpartes de página */
 ytd-browse[page-subtype=channels] {background: black} /* Fondo de página en un canal */
@@ -19,14 +20,14 @@ yt-icon.ytd-logo { color: #ddffdd !important; } /* Nombre YouTube parte superior
 
 /*** En el feed ***/
 ytd-thumbnail-overlay-time-status-renderer[overlay-style=SHORTS] yt-icon.ytd-thumbnail-overlay-time-status-renderer {color: var(--darkGreen)} /* Icono de Youtube Shorts */
-.ytThumbnailOverlayProgressBarHostWatchedProgressBarSegment {background: var(--strongGreen)} /* Barra de progreso en miniaturas */
+.ytThumbnailOverlayProgressBarHostWatchedProgressBarSegment {background: var(--gradientGreen)} /* Barra de progreso en miniaturas */
 .guide-entry-badge.ytd-guide-entry-renderer {color: var(--strongGreen)} /* Icono de estar en directo */
 
 
 
 /*** Dentro de un video ***/
 tp-yt-paper-button.ytd-subscribe-button-renderer:not(subscribed) {background-color: var(--strongGreen); color: black} /* Botón de suscripción */
-#movie_player > div.ytp-chrome-bottom > div.ytp-progress-bar-container > div.ytp-progress-bar > div.ytp-chapters-container > div > div.ytp-progress-list > div.ytp-play-progress.ytp-swatch-background-color {background: linear-gradient(to right, var(--strongGreen) 80%, var(--darkGreen) 100%)} /* Barra de progreso en video */
+#movie_player > div.ytp-chrome-bottom > div.ytp-progress-bar-container > div.ytp-progress-bar > div.ytp-chapters-container > div > div.ytp-progress-list > div.ytp-play-progress.ytp-swatch-background-color {background: var(--gradientGreen)} /* Barra de progreso en video */
 .ytp-swatch-background-color { background-color: var(--strongGreen) }; /* Círculo que acompaña a la barra de progreso en el video */
 .ytp-swatch-color {color: var(--strongGreen)} /* Iconos de HD, HDR, 4K, 5K, 8K y 3D en la calidad de configuración de un video */
 .ytp-sb-subscribe, a.ytp-sb-subscribe {background-color: var(--strongGreen); color: black} /* Botón de suscripción desde la parte inferior derecha del video */
