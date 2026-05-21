@@ -1,49 +1,49 @@
 body {
-	background: #000000;
+  background: #000000 !important;
 }
 
 #container {
-	background-color: #242424;
-	color: #ffffff;
+  background-color: #242424 !important;
+  color: #ffffff !important;
 }
 
 td {
-	background-image: linear-gradient(to bottom, #242424, #3d3d3d);
+  background-image: linear-gradient(to bottom, #242424, #3d3d3d) !important;
 }
 
 .recomendado td {
-	background-image: linear-gradient(to bottom, #242424, #4c524a);
+  background-image: linear-gradient(to bottom, #242424, #4c524a) !important;
 }
 
 td {
-	color: #ffffff;
+  color: #ffffff !important;
 }
 
 tr:hover td {
-	background-image: linear-gradient(to bottom, #002d3b, #00465c);
+  background-image: linear-gradient(to bottom, #002d3b, #00465c) !important;
 }
 
 a:link {
-	color: lightblue;
+  color: lightblue !important;
 }
 
 a:visited {
-	color: #00779c;
+  color: #00779c !important;
 }
 
 .bottommenu, #welcome {
-	background-image: none;
-	background-color: #000000;
+  background-image: none !important;
+  background-color: #000000 !important;
 }
 
 div.derecha > a.action.new {
-	background: #080808;
+  background: #080808 !important;
 }
 
 div.ficha, div.spoil > section {
-	background: #242424;
+  background: #242424 !important;
 }
 
 body > div#container > div#content > div:nth-child(3):not([class]) {
-	background: #000000;
+  background: #000000 !important;
 }
